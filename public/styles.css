@@ -1,0 +1,111 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: #008891;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.s-container {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+form input {
+  display: grid;
+  margin: 7% auto 0% auto;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  text-align: left;
+  font-family: "Potta One", cursive;
+}
+
+label {
+  position: relative;
+  margin: 0px 40px;
+  padding: 0;
+  top: 20px;
+  font-size: 0.9em;
+  font-family: "Potta One", cursive;
+  color: #0083b0;
+}
+
+.upside-triangle {
+  position: relative;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 10% 50%);
+  transform: rotate(-90deg);
+  width: 220px;
+  height: 265px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.upside-triangle h2,
+p {
+  white-space: nowrap;
+  text-align: center;
+  transform: rotate(90deg);
+  position: relative;
+  top: 45%;
+  left: 15%;
+  font-family: "Potta One", cursive;
+}
+
+.upside-triangle p {
+  left: 0%;
+  text-align: center;
+  top: 26%;
+}
+
+.triangle-container {
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  display: grid;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  z-index: 10;
+  left: 10px;
+  top: 40px;
+}
+
+.s-form {
+  display: grid;
+  position: relative;
+  padding-top: 50px;
+  z-index: 4;
+  width: 110%;
+  background-color: #fff;
+  margin: -40px auto;
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.bckg-form {
+  width: 100%;
+  background-color: #fff;
+}
+
+form button {
+  margin: 10% auto;
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(255, 219, 47, 1) 11.2%,
+    rgba(244, 253, 0, 1) 100.2%
+  );
+  filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  font-family: "Potta One", cursive;
+}
